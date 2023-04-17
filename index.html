@@ -5,26 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/logo-bonchy.ico">
     <title>Bonchy Manualidades</title>
 </head>
 <body>
     <header id="container_nav">
-        <img src="" alt="" class="logo">
-        <p>Bonchy Manualidades</p>
-        <nav class="navegador">
-            <ul class="lista">
-                <li class="links"></li>
-                <li class="links"></li>
-                <li class="links"></li>
-            </ul>
-        </nav>
+        <div class="container-nav">
+            <p>Bonchy Manualidades</p>
+            <nav class="navegador">
+                <ul class="lista">
+                    <li class="links"><a href="">Inicio</a></li>
+                    <li class="links"><a href="">Productos</a></li>
+                    <li class="links"><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section id="hero">
+        <div class="container-hero">
+            <img src="/images/logo-bonchy.jpg" alt="" class="hero-img">
+            <div class="hero-title-container">
+                <h1 class="hero-title">Bonchy Manualidades</h1>
+                <h2 class="hero-subtitle">Productos hechos con amor</h2>
+            </div>
+        </div>
+    </section>
+    <section id="productos">
 
     </section>
-    <section id="productos"></section>
-    <section id="formulario"></section>
-    <section id="comentarios"></section>
-    <footer id="pie"></footer>
+    <section id="form">
+        <form action="mailto:maicol.varas.riega@gmail.com" method="post" class="formula">
+            <fieldset class="formulario">
+                <h3 class="titulo-contacto">Contactanos</h3>
+                <label for="nombre" class="form">Nombre: <input class="inp" type="text" id="nombre" required />
+                </label>
+                <label for="correo" class="form">Email: <input class="inp" type="email" name="mail" id="correo" required/>
+                </label>
+                <label for="solicitud" class="form">Describe tu solicitud:
+                    <textarea class="area" name="" id="solicitud" cols="30" rows="10"></textarea>
+                </label>
+                <input type="submit" value="Enviar" class="btn">
+            </fieldset>
+        </form>
+    </section>
+    <section id="comentarios">
+        <div class="container-comentario">
+            <img src="" alt="" class="avatar">
+            <p class="coment">Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+        <div class="container-comentario">
+            <img src="" alt="" class="avatar">
+            <p class="coment">Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+        <div class="container-comentario">
+            <img src="" alt="" class="avatar">
+            <p class="coment">Lorem ipsum dolor sit amet consectetur</p>
+        </div>
+    </section>
+    <footer id="pie">
+        <div class="container-footer">
+            <img src="" alt="" class="social-media">
+            <img src="" alt="" class="social-media">
+            <img src="" alt="" class="social-media">
+        </div>
+    </footer>
 </body>
 </html>
