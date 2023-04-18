@@ -157,3 +157,41 @@ a:hover{
     margin-bottom: 2%;
 }
 /*end form*/
+
+/*beginning comments*/
+#comentarios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+}
+.container-comentario{
+    width: 30vw;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.container-comentario:last-child{
+    margin-right: 3%;
+}
+/*end comments*/
+
+/*beginning footer*/
+.container-footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+.social-media{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 50%;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.56);
+}
+/*end footer*/
