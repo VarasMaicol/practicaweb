@@ -165,15 +165,22 @@ a:hover{
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 10vh;
+    height: 20vh;
 }
 .container-comentario{
     width: 30vw;
     padding: 5px;
+    margin: 0 auto;
     margin-bottom: 10px;
+    text-align: center;
 }
 .container-comentario:last-child{
     margin-right: 3%;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 /*end comments*/
 
